@@ -17,9 +17,9 @@ export const App = () => {
 				>
 					Learn React
 				</a>
+				<p>{new Date(Date.now()).getFullYear()}</p>
 			</header>
 		</div>
 	);
 };
-
 export default App;
